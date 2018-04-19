@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Elaborate Form</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
@@ -12,24 +13,129 @@
 </head>
 
 <body>
-    <form action="/my-handling-form-page" method="post">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"> </textarea>
+    <form action=http://localhost:2000 method="post">
+        <div id="section1">
+            <!--Box 1 name, email, email, homepage  -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail1" name="user_mail1">
+            </div>
 
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail2" name="user_mail2">
+            </div>
+            <div>
+                <label for="homepage">Homepage:</label>
+                <input type="homepage" id="homepage" name="user_homepage">
+            </div>
+        </div>
+
+        <div id="section2">
+            <div>
+                <!-- this will be a single selection bubble -->
+                <label for="perferred communication">Perferred Method of Communication</label>
+
+                <input type="radio" id="method" name="user_method" value="phone"> Phone
+                <br>
+                <input type="radio" id="method" name= "user_method" value="email"> E-mail
+                <br>
+                <input type="radio" id="method" name="user_method" value="bottle"> Message in a bottle
+                <br>
+
+
+
+            </div>
+        </div>
+
+        <div id="section3">
+            <div>
+                <!-- this will be check all that apply
+                <label for="devices">Which device do you use?:</label>
+                <input type="devices" id="devices" name="user_device"> -->
+
+                <!-- <ul class="listSect3">
+                    <li>iOS (iPhone, iPad)</li>
+                    <li>Android</li>
+                   <li> Mac</li>
+                    <li>Windows</li>
+                    <li>Chrome OS</li>
+                    <li>Linux</li>
+                </ul> -->
+
+                <fieldset>
+                    <legend>Which device do you use?</legend>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="iOS">
+                        <label for="device">iOS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="Android">
+                        <label for="device">Android</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="Mac">
+                        <label for="device">Mac</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="Windows">
+                        <label for="device">Windows</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="Chrome OS">
+                        <label for="device">Chrome OS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="device" name="user_device" value="Linux">
+                        <label for="device">Linux</label>
+                    </div>
+                </fieldset>
+
+                <!-- end test
+                end test
+                end test -->
+            </div>
+        </div>
+        <div>
+            <!-- inquiry, plan and message -->
+        </div>
+
+        <div id="section4">
+            <div>
+                <!-- this will be a dropdown menu -->
+                <label for="inquiry">What is your inquiry about?:</label>
+
+                <select>
+                    <option value="inquiry1">option1</option>
+                    <option value="inquiry2">option2</option>
+                    <option value="inquiry3 ">option2</option>
+                    <option value="inquiry4">option4</option>
+                </select>
+
+            </div>
+            <div>
+                <!-- this will be a button -->
+                <label for="plan">Your Plan:</label>
+                <input type="plan" id="plan" name="user_plan">
+            </div>
+            <div>
+                <!-- This will be a text box -->
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"> </textarea>
+            </div>
+        </div>
+        <div id="section5">
             <div class="button">
                 <button type="submit">Send your message</button>
-              </div>
-              
+                <button type="reset">Reset!</button>
+            </div>
+
         </div>
     </form>
 </body>
+
 </html>

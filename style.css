@@ -1,14 +1,77 @@
 form {
     /* Just to center the form on the page */
+    /* margin: 0 auto;
+    width: 400px; */
+    /* To see the outline of the form */
+    /* padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;  */
+  }
+
+#section1 {
+    /* Just to center the form on the page */
     margin: 0 auto;
     width: 400px;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-  }
+} 
+
+#section2 {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align:left;
+}  
+
+.listSec2{
+    /* list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0; */
+}
+
+#section3 {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+} 
+
+
+.listSec3{
+    /* list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;     */
+}
+
+
+#section4 {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+#section5 {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;   
+}   
   
-  form div + div {
+form div + div {
     margin-top: 1em;
   }
   

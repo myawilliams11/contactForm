@@ -1,0 +1,23 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "contact form with express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myawilliams11/contactForm.git"
+  },
+  "keywords": [
+    "contact",
+    "form"
+  ],
+  "author": "Mya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myawilliams11/contactForm/issues"
+  },
+  "homepage": "https://github.com/myawilliams11/contactForm#readme"
+}
