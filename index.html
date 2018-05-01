@@ -18,20 +18,26 @@
             <!--Box 1 name, email, email, homepage  -->
             <div>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="user_name" autofocus>
+            </div>
+            <div>
+                <label for="age">Approximate Age (0-100):</label>
+                <input type=range id="age" name="user_age" range>
             </div>
             <div>
                 <label for="mail">E-mail:</label>
                 <input type="email" id="mail1" name="user_mail1">
             </div>
 
+
+            <!-- update cell info -->
             <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail2" name="user_mail2">
+                <label for="cell">Phone:</label>
+                <input type="tel" id="cell" name="user_cell">
             </div>
             <div>
                 <label for="homepage">Homepage:</label>
-                <input type="homepage" id="homepage" name="user_homepage">
+                <input type="url" id="homepage" name="user_homepage">
             </div>
         </div>
 
@@ -128,7 +134,7 @@
             <div>
                 <!-- this will be a button -->
                 <label for="plan">Your Plan:</label>
-                <input type="plan" id="plan" name="user_plan">
+                <input type="plan" id="plan" name="user_plan" disabled>
             </div>
             <div>
                 <!-- This will be a text box -->

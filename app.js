@@ -7,8 +7,9 @@ app.use(express.urlencoded({extended: true}));
 
 app.post('/', function(req, res) {
   var name = req.body.user_name, name;
+  var age = req.body.user_age, age;
   var mail1 = req.body.user_mail1, mail1;
-  var mail2 = req.body.user_mail2;
+  var cell = req.body.user_cell, cell;
   var homepage = req.body.homepage;
   var method = req.body.user_method;
   var device = req.body.user_device;
